@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-full {
+  width: 100%;
+}
+.h-fukk {
+  height: 100%;
+}
+.container-white {
+  background-color: white;
+  margin: -20px;
+  padding: 20px;
+  min-height: calc(100vh - var(--el-header-height, 60px) - 46px);
+}
+.text-primary {
+  color: var(--el-text-color-primary);
+}
+.bg-primary {
+  background-color: var(--el-text-color-primary);
+}
+.border-r-1 {
+  border-right: 1px solid var(--el-border-color);
+}
+.border-l-1 {
+  border-left: 1px solid var(--el-border-color);
+}
+
+.border-t-1 {
+  border-top: 1px solid var(--el-border-color);
+}
+.border-b-1 {
+  border-bottom: 1px solid var(--el-border-color);
+}
